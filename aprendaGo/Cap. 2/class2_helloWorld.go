@@ -19,10 +19,11 @@ func main() {
 	blankIdentifier, _ := fmt.Println("Hello, wordl", "Salve guys", 19)
 	fmt.Println(blankIdentifier)
 
-	x := 8
+	var x int = 8
 	/*String sempre será dentro de "" e não '' */
-	y := "strings"
-	z := false
+	var y string = "strings"
+	/*bool -> booleano -> True/False */
+	var z bool = false
 
 	fmt.Println(x, y, z)
 }

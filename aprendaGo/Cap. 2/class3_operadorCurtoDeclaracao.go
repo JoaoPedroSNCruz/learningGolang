@@ -9,8 +9,9 @@ import "fmt"
 Escopos - pode ser a nível de packages (global, como alguns falam) ou então de função (local)
 Vale ressaltar que o as variáveis só podem ser acessadas após seu escopo, ou seja, trocar o a linha 25 para ficar
 antes da linha 24 (declaração da variável) ocasionária erro pelo fato da variável não abrangir aquele escopo
-*/
-var y = "Good morning"
+Atribuição de valores de escopo global só ocorre dentro de codeblocks ou na declaração da variável*/
+/*Podemos atribuir o tipo ou então ele será automáticamente definido pelo GO */
+var y string = "Good morning"
 
 /*key-words -> palavras reservadas. Só podem ser usadas para seu devido funcionamento, não podendo ser utilizadas
 em outros contextos */
